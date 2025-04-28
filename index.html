@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrevista - Resposta em Áudio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .audio-container {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .audio-container h1 {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    audio {
+      width: 100%;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="audio-container">
+    <h1>Resposta do Entrevistado</h1>
+    <audio controls>
+      <source src="./audio/resposta.ogg" >
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+  </div>
+</body>
+</html>
